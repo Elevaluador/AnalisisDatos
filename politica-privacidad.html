@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad | Luis Flores - Analista de Datos</title>
+    <meta name="description" content="Política de privacidad del sitio web de Luis Flores. Información sobre el tratamiento y protección de datos personales.">
+    <!-- CSS principal con carga async -->
+     <!-- Favicons optimizados -->
+    <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-analista-luis-flores.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/Luis Flores.png">
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <style>
+               /* CSS Variables */
+:root {
+    --color-dark: #0f0f1e;
+    --color-dark-light: #1a1a2e;
+    --color-blue: #2563eb;
+    --color-blue-light: #60a5fa;
+    --color-orange: #f97316;
+    --color-purple: #9333ea;
+    --color-white: #ffffff;
+    --color-gray-light: #f1f5f9;
+    --color-gray: #94a3b8;
+    --color-gray-dark: #475569;
+    --color-red: #ef4444;
+    --color-green: #22c55e;
+    
+    --gradient-primary: linear-gradient(135deg, var(--color-blue) 0%, var(--color-purple) 100%);
+    --gradient-accent: linear-gradient(135deg, var(--color-orange) 0%, var(--color-purple) 100%);
+    --gradient-dark: linear-gradient(135deg, var(--color-dark) 0%, var(--color-dark-light) 100%);
+    --gradient-danger: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 3rem;
+    --spacing-xl: 4rem;
+    
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+    
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.16);
+    
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-full: 9999px;
+    
+    --transition-fast: 0.2s ease;
+    --transition-base: 0.3s ease;
+}
+
+/* Base Styles - MOBILE FIRST */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--color-dark);
+    background: var(--color-white);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 var(--spacing-sm);
+}
+        .legal-page {
+            padding: 8rem 0 4rem;
+            background: var(--color-white);
+            min-height: 100vh;
+        }
+        
+        .legal-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-md);
+        }
+        
+        .legal-header {
+            margin-bottom: var(--spacing-lg);
+            text-align: center;
+        }
+        
+        .legal-title {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--color-dark);
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        .legal-date {
+            color: var(--color-gray-dark);
+            font-size: 0.9375rem;
+        }
+        
+        .legal-content {
+            line-height: 1.8;
+        }
+        
+        .legal-content h2 {
+            font-family: var(--font-display);
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--color-dark);
+            margin-top: var(--spacing-lg);
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        .legal-content h3 {
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--color-dark);
+            margin-top: var(--spacing-md);
+            margin-bottom: var(--spacing-xs);
+        }
+        
+        .legal-content p {
+            margin-bottom: var(--spacing-sm);
+            color: var(--color-gray-dark);
+        }
+        
+        .legal-content ul, .legal-content ol {
+            margin-bottom: var(--spacing-sm);
+            padding-left: var(--spacing-md);
+        }
+        
+        .legal-content li {
+            margin-bottom: var(--spacing-xs);
+            color: var(--color-gray-dark);
+        }
+        
+        .legal-content strong {
+            color: var(--color-dark);
+            font-weight: 600;
+        }
+        
+        .info-box {
+            padding: var(--spacing-md);
+            background: rgba(37, 99, 235, 0.05);
+            border-left: 4px solid var(--color-blue);
+            border-radius: var(--radius-sm);
+            margin: var(--spacing-md) 0;
+        }
+        
+        .info-box p {
+            margin-bottom: 0;
+        }
+        
+        .warning-box {
+            padding: var(--spacing-md);
+            background: rgba(239, 68, 68, 0.05);
+            border-left: 4px solid var(--color-red);
+            border-radius: var(--radius-sm);
+            margin: var(--spacing-md) 0;
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            color: var(--color-blue);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: var(--spacing-md);
+            transition: var(--transition-fast);
+        }
+        
+        .back-link:hover {
+            gap: var(--spacing-sm);
+        }
+        
+        @media (max-width: 768px) {
+            .legal-title {
+                font-size: 2rem;
+            }
+            
+            .legal-content h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Legal Content -->
+    <div class="legal-page">
+        <div class="legal-container">
+            <a href="index.html" class="back-link">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M12 4L6 10l6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                Volver al inicio
+            </a>
+
+            <div class="legal-header">
+                <h1 class="legal-title">Política de Privacidad</h1>
+                <p class="legal-date">Última actualización: 29 de enero de 2026</p>
+            </div>
+
+            <div class="legal-content">
+                <div class="info-box">
+                    <p><strong>En resumen:</strong> Respetamos tu privacidad. Esta política explica qué datos personales recopilamos, cómo los usamos, y tus derechos sobre ellos. Solo recopilamos lo necesario para brindarte nuestros servicios de análisis de datos.</p>
+                </div>
+
+                <h2>1. Responsable del Tratamiento</h2>
+                <p><strong>Identidad:</strong> Luis Flores<br>
+                <strong>Actividad:</strong> Servicios de análisis de datos para empresas y negocios<br>
+                <strong>Domicilio:</strong> Piura, Perú<br>
+                <strong>Teléfono:</strong> +51 997 743 227<br>
+                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/luis-flores-panaderias/" target="_blank" rel="noopener">luis-flores-panaderias</a><br>
+                <strong>Sitio web:</strong> <a href="https://www.luikifloes.com" target="_blank" rel="noopener">www.luikifloes.com</a></p>
+
+                <h2>2. ¿Qué datos personales recopilamos?</h2>
+                <p>Recopilamos únicamente los datos personales que nos proporcionas voluntariamente cuando:</p>
+                <ul>
+                    <li>Te comunicas con nosotros a través de WhatsApp, LinkedIn o correo electrónico</li>
+                    <li>Solicitas información sobre nuestros servicios</li>
+                    <li>Contratas nuestros servicios de análisis de datos</li>
+                    <li>Navegas por nuestro sitio web (datos de navegación)</li>
+                </ul>
+
+                <h3>2.1. Datos de Identificación</h3>
+                <ul>
+                    <li>Nombre y apellidos</li>
+                    <li>Número de teléfono (WhatsApp)</li>
+                    <li>Dirección de correo electrónico</li>
+                    <li>Nombre de la empresa o negocio</li>
+                </ul>
+
+                <h3>2.2. Datos de Navegación</h3>
+                <ul>
+                    <li>Dirección IP</li>
+                    <li>Tipo de navegador</li>
+                    <li>Páginas visitadas</li>
+                    <li>Tiempo de navegación</li>
+                    <li>Origen de la visita (referrer)</li>
+                </ul>
+
+                <h2>3. ¿Con qué finalidad tratamos tus datos?</h2>
+                <p>Tratamos tus datos personales para las siguientes finalidades:</p>
+
+                <h3>3.1. Gestión de Consultas y Servicios</h3>
+                <ul>
+                    <li>Responder a tus consultas sobre nuestros servicios</li>
+                    <li>Gestionar la contratación de servicios de análisis de datos</li>
+                    <li>Enviar presupuestos y propuestas comerciales</li>
+                    <li>Prestar los servicios contratados</li>
+                    <li>Emitir facturas y gestionar pagos</li>
+                </ul>
+                <p><strong>Base legal:</strong> Ejecución de un contrato o medidas precontractuales.</p>
+
+                <h3>3.2. Comunicaciones Comerciales</h3>
+                <ul>
+                    <li>Enviarte información sobre nuestros servicios</li>
+                    <li>Informarte sobre nuevas plantillas, herramientas o servicios</li>
+                    <li>Compartir casos de éxito y contenido de valor</li>
+                </ul>
+                <p><strong>Base legal:</strong> Consentimiento expreso del usuario.</p>
+
+                <h3>3.3. Análisis y Mejora del Sitio Web</h3>
+                <ul>
+                    <li>Analizar el uso del sitio web mediante Google Analytics</li>
+                    <li>Mejorar la experiencia de navegación</li>
+                    <li>Realizar estadísticas de visitas</li>
+                </ul>
+                <p><strong>Base legal:</strong> Interés legítimo del responsable.</p>
+
+                <h2>4. ¿Durante cuánto tiempo conservaremos tus datos?</h2>
+                <p>Conservaremos tus datos personales durante el tiempo necesario para cumplir con las finalidades descritas:</p>
+                <ul>
+                    <li><strong>Consultas no convertidas:</strong> 2 años desde el último contacto</li>
+                    <li><strong>Clientes activos:</strong> Durante la prestación del servicio + 5 años (obligaciones fiscales)</li>
+                    <li><strong>Marketing:</strong> Hasta que retires tu consentimiento</li>
+                    <li><strong>Datos de navegación:</strong> 2 años (Google Analytics)</li>
+                </ul>
+
+                <h2>5. ¿Compartimos tus datos con terceros?</h2>
+                <p>No vendemos ni compartimos tus datos personales con terceros, excepto en los siguientes casos:</p>
+
+                <h3>5.1. Prestadores de Servicios</h3>
+                <ul>
+                    <li><strong>Google Analytics:</strong> Para análisis de navegación y estadísticas</li>
+                    <li><strong>Servicios de hosting:</strong> Para alojar el sitio web</li>
+                    <li><strong>Procesadores de pago:</strong> Si contratas servicios de pago</li>
+                </ul>
+                <p>Todos estos proveedores actúan como encargados del tratamiento y tienen prohibido usar tus datos para sus propios fines.</p>
+
+                <h3>5.2. Obligaciones Legales</h3>
+                <p>Podemos compartir tus datos cuando sea requerido por ley o autoridad competente.</p>
+
+                <h2>6. Transferencias Internacionales</h2>
+                <p>
+                    Algunos de nuestros proveedores de servicios (como Google Analytics) pueden realizar transferencias internacionales de datos. En estos casos, nos aseguramos de que existan garantías adecuadas de protección según la legislación aplicable.
+                </p>
+
+                <h2>7. ¿Cuáles son tus derechos?</h2>
+                <p>Como titular de tus datos personales, tienes los siguientes derechos:</p>
+
+                <h3>7.1. Derecho de Acceso</h3>
+                <p>Conocer qué datos personales tenemos sobre ti y cómo los tratamos.</p>
+
+                <h3>7.2. Derecho de Rectificación</h3>
+                <p>Corregir datos inexactos o incompletos.</p>
+
+                <h3>7.3. Derecho de Supresión</h3>
+                <p>Solicitar la eliminación de tus datos cuando ya no sean necesarios o retires tu consentimiento.</p>
+
+                <h3>7.4. Derecho de Oposición</h3>
+                <p>Oponerte al tratamiento de tus datos para determinadas finalidades.</p>
+
+                <h3>7.5. Derecho a la Limitación del Tratamiento</h3>
+                <p>Solicitar que limitemos el tratamiento de tus datos en determinadas circunstancias.</p>
+
+                <h3>7.6. Derecho a la Portabilidad</h3>
+                <p>Recibir tus datos en formato estructurado y transmitirlos a otro responsable.</p>
+
+                <h3>7.7. Derecho a Retirar el Consentimiento</h3>
+                <p>Puedes retirar tu consentimiento en cualquier momento sin afectar la licitud del tratamiento anterior.</p>
+
+                <div class="info-box">
+                    <p><strong>¿Cómo ejercer tus derechos?</strong><br>
+                    Puedes ejercer tus derechos contactándonos a través de:<br>
+                    📱 WhatsApp: +51 997 743 227 <br>
+                    💼 LinkedIn: <a href="https://www.linkedin.com/in/luis-flores-panaderias/" target="_blank" rel="noopener">luis-flores-panaderias</a></p>
+                </div>
+
+                <h2>8. Seguridad de los Datos</h2>
+                <p>
+                    Hemos implementado medidas de seguridad técnicas y organizativas apropiadas para proteger tus datos personales contra acceso no autorizado, pérdida, destrucción o alteración. Estas medidas incluyen:
+                </p>
+                <ul>
+                    <li>Certificado SSL/HTTPS en el sitio web</li>
+                    <li>Acceso restringido a datos personales</li>
+                    <li>Copias de seguridad periódicas</li>
+                    <li>Protocolos de seguridad en comunicaciones</li>
+                </ul>
+
+                <h2>9. Menores de Edad</h2>
+                <p>
+                    Este sitio web y nuestros servicios no están dirigidos a menores de 18 años. No recopilamos intencionalmente datos personales de menores. Si detectamos que hemos recopilado datos de un menor sin autorización parental, los eliminaremos de inmediato.
+                </p>
+
+                <h2>10. Enlaces a Terceros</h2>
+                <p>
+                    Nuestro sitio web puede contener enlaces a sitios web de terceros (LinkedIn, sitios de clientes, etc.). No somos responsables de las prácticas de privacidad de estos sitios. Te recomendamos leer sus políticas de privacidad.
+                </p>
+
+                <h2>11. Uso de WhatsApp</h2>
+                <p>
+                    Si nos contactas a través de WhatsApp (+51 997 743 227), ten en cuenta que esta plataforma es operada por Meta (Facebook). La comunicación estará sujeta a la política de privacidad de WhatsApp. Nosotros trataremos la información que compartas según esta política de privacidad.
+                </p>
+
+                <h2>12. Cookies</h2>
+                <p>
+                    Este sitio web utiliza cookies. Para más información, consulta nuestra <a href="politica-cookies.html">Política de Cookies</a>.
+                </p>
+
+                <h2>13. Actualizaciones de esta Política</h2>
+                <p>
+                    Podemos actualizar esta Política de Privacidad periódicamente para reflejar cambios en nuestras prácticas o por motivos legales. Te notificaremos cualquier cambio significativo mediante un aviso en el sitio web.
+                </p>
+                <p>
+                    Te recomendamos revisar esta página periódicamente para estar informado de cómo protegemos tu información.
+                </p>
+
+                <h2>14. Legislación Aplicable y Jurisdicción</h2>
+                <p>
+                    Esta Política de Privacidad se rige por la legislación peruana en materia de protección de datos personales, específicamente:
+                </p>
+                <ul>
+                    <li>Ley N° 29733 - Ley de Protección de Datos Personales</li>
+                    <li>Decreto Supremo N° 003-2013-JUS - Reglamento de la Ley de Protección de Datos Personales</li>
+                    <li>Reglamento General de Protección de Datos (RGPD) de la UE, cuando sea aplicable</li>
+                </ul>
+
+                <h2>15. Reclamaciones</h2>
+                <p>
+                    Si consideras que no hemos tratado tus datos personales de acuerdo con esta política, puedes:
+                </p>
+                <ol>
+                    <li>Contactarnos directamente para resolver el problema</li>
+                    <li>Presentar una reclamación ante la Autoridad Nacional de Protección de Datos Personales de Perú</li>
+                </ol>
+
+                <div class="warning-box">
+                    <p><strong>Importante:</strong> Esta Política de Privacidad complementa, pero no reemplaza, cualquier otro acuerdo que puedas tener con nosotros respecto al tratamiento de tus datos personales.</p>
+                </div>
+
+                <h2>16. Contacto</h2>
+                <p>
+                    Para cualquier consulta sobre esta Política de Privacidad o sobre el tratamiento de tus datos personales, puedes contactarnos:
+                </p>
+                <ul>
+                    <li><strong>WhatsApp:</strong> +51 997 743 227</li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/luis-flores-panaderias/" target="_blank" rel="noopener">luis-flores-panaderias</a></li>
+                    <li><strong>Web:</strong> <a href="https://www.luikifloes.com" target="_blank" rel="noopener">luikifloes.com</a></li>
+                </ul>
+
+                <div class="info-box">
+                    <p><strong>Tu confianza es importante para nosotros.</strong> Nos comprometemos a proteger tu privacidad y tratar tus datos con total transparencia y respeto.</p>
+                </div>
+
+                <div style="margin-top: var(--spacing-lg); text-align: center;">
+                    <a href="index.html" class="btn btn-primary">
+                        Volver al inicio
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10h12m-5-5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Luis Flores</h3>
+                    <p>Analista de Datos Especializado en Pequeños Negocios</p>
+                    <p class="footer-tagline">Transformando datos en dinero real</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Legal</h4>
+                        <a href="politica-cookies.html">Política de Cookies</a>
+                        <a href="politica-privacidad.html">Política de Privacidad</a>
+                        <a href="aviso-legal.html">Aviso Legal</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contacto</h4>
+                        <a href="https://wa.me/51997743227" target="_blank" rel="noopener">WhatsApp</a>
+                        <a href="https://www.linkedin.com/in/luis-flores-panaderias/" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="https://www.luikifloes.com" target="_blank" rel="noopener">luikifloes.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Luis Flores. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script defer src="script.js"></script>
+</body>
+</html>

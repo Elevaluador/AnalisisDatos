@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Cookies | Luis Flores - Analista de Datos</title>
+    <meta name="description" content="Política de cookies del sitio web de Luis Flores. Información sobre el uso de cookies y tecnologías similares.">
+    <meta name="author" content="Luis Flores">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.analistaluisflores.online/politica-cookies">
+    <!-- CSS principal con carga async -->
+     <!-- Favicons optimizados -->
+    <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-analista-luis-flores.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/Luis Flores.png">
+
+    <link rel="preload" as="image" href="images/problemas-analisis-datos.jpg" fetchpriority="high">
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <style>
+
+        /* CSS Variables */
+:root {
+    --color-dark: #0f0f1e;
+    --color-dark-light: #1a1a2e;
+    --color-blue: #2563eb;
+    --color-blue-light: #60a5fa;
+    --color-orange: #f97316;
+    --color-purple: #9333ea;
+    --color-white: #ffffff;
+    --color-gray-light: #f1f5f9;
+    --color-gray: #94a3b8;
+    --color-gray-dark: #475569;
+    --color-red: #ef4444;
+    --color-green: #22c55e;
+    
+    --gradient-primary: linear-gradient(135deg, var(--color-blue) 0%, var(--color-purple) 100%);
+    --gradient-accent: linear-gradient(135deg, var(--color-orange) 0%, var(--color-purple) 100%);
+    --gradient-dark: linear-gradient(135deg, var(--color-dark) 0%, var(--color-dark-light) 100%);
+    --gradient-danger: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 3rem;
+    --spacing-xl: 4rem;
+    
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+    
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.16);
+    
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-full: 9999px;
+    
+    --transition-fast: 0.2s ease;
+    --transition-base: 0.3s ease;
+}
+
+/* Base Styles - MOBILE FIRST */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--color-dark);
+    background: var(--color-white);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 var(--spacing-sm);
+}
+/* Navigation - MOBILE */
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(15, 15, 30, 0.1);
+}
+
+.nav-container {
+    padding: var(--spacing-sm);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-decoration: none;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.nav-menu {
+    position: fixed;
+    top: 65px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 65px);
+    background: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-md);
+    gap: var(--spacing-sm);
+    list-style: none;
+    box-shadow: var(--shadow-lg);
+    transition: left var(--transition-base);
+}
+
+.nav-menu.active {
+    left: 0;
+}
+
+.nav-link {
+    color: var(--color-dark);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.125rem;
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-sm);
+}
+
+.nav-link:hover {
+    background: var(--color-gray-light);
+    color: var(--color-blue);
+}
+
+.btn-nav {
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: var(--gradient-primary);
+    color: var(--color-white) !important;
+    border-radius: var(--radius-full);
+    text-align: center;
+}
+
+.nav-toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-toggle span {
+    width: 24px;
+    height: 2px;
+    background: var(--color-dark);
+}
+        .legal-page {
+            padding: 8rem 0 4rem;
+            background: var(--color-white);
+            min-height: 100vh;
+        }
+        
+        .legal-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-md);
+        }
+        
+        .legal-header {
+            margin-bottom: var(--spacing-lg);
+            text-align: center;
+        }
+        
+        .legal-title {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--color-dark);
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        .legal-date {
+            color: var(--color-gray-dark);
+            font-size: 0.9375rem;
+        }
+        
+        .legal-content {
+            line-height: 1.8;
+        }
+        
+        .legal-content h2 {
+            font-family: var(--font-display);
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--color-dark);
+            margin-top: var(--spacing-lg);
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        .legal-content h3 {
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--color-dark);
+            margin-top: var(--spacing-md);
+            margin-bottom: var(--spacing-xs);
+        }
+        
+        .legal-content p {
+            margin-bottom: var(--spacing-sm);
+            color: var(--color-gray-dark);
+        }
+        
+        .legal-content ul, .legal-content ol {
+            margin-bottom: var(--spacing-sm);
+            padding-left: var(--spacing-md);
+        }
+        
+        .legal-content li {
+            margin-bottom: var(--spacing-xs);
+            color: var(--color-gray-dark);
+        }
+        
+        .legal-content strong {
+            color: var(--color-dark);
+            font-weight: 600;
+        }
+        
+        .cookie-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: var(--spacing-md) 0;
+            background: var(--color-white);
+            border: 1px solid var(--color-gray-light);
+            border-radius: var(--radius-sm);
+            overflow: hidden;
+        }
+        
+        .cookie-table th {
+            background: var(--color-gray-light);
+            padding: var(--spacing-sm);
+            text-align: left;
+            font-weight: 600;
+            color: var(--color-dark);
+            border-bottom: 2px solid var(--color-gray);
+        }
+        
+        .cookie-table td {
+            padding: var(--spacing-sm);
+            border-bottom: 1px solid var(--color-gray-light);
+            color: var(--color-gray-dark);
+        }
+        
+        .cookie-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .info-box {
+            padding: var(--spacing-md);
+            background: rgba(37, 99, 235, 0.05);
+            border-left: 4px solid var(--color-blue);
+            border-radius: var(--radius-sm);
+            margin: var(--spacing-md) 0;
+        }
+        
+        .info-box p {
+            margin-bottom: 0;
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            color: var(--color-blue);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: var(--spacing-md);
+            transition: var(--transition-fast);
+        }
+        
+        .back-link:hover {
+            gap: var(--spacing-sm);
+        }
+        @media (min-width: 768px) {
+    :root {
+        --spacing-md: 2rem;
+        --spacing-lg: 4rem;
+        --spacing-xl: 5rem;
+    }
+    
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+    
+    .nav-logo {
+        font-size: 1.5rem;
+    }
+    
+    .nav-menu {
+        position: static;
+        width: auto;
+        height: auto;
+        background: transparent;
+        flex-direction: row;
+        padding: 0;
+        box-shadow: none;
+        gap: var(--spacing-md);
+        align-items: center;
+    }
+    
+    .nav-link {
+        font-size: 1rem;
+        padding: 0;
+    }
+    
+    .nav-link:hover {
+        background: transparent;
+    }
+    
+    .nav-toggle {
+        display: none;
+    }
+    }
+        @media (max-width: 768px) {
+            .legal-title {
+                font-size: 2rem;
+            }
+            
+            .legal-content h2 {
+                font-size: 1.5rem;
+            }
+            
+            .cookie-table {
+                font-size: 0.875rem;
+            }
+            
+            .cookie-table th,
+            .cookie-table td {
+                padding: var(--spacing-xs);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Luis Flores</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#problemas" class="nav-link">¿Te pasa esto?</a></li>
+                <li><a href="#servicios" class="nav-link">Soluciones</a></li>
+                <li><a href="#portafolio" class="nav-link">Casos de Éxito</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#contacto" class="nav-link btn-nav">Conversemos</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Legal Content -->
+    <div class="legal-page">
+        <div class="legal-container">
+            <a href="index.html" class="back-link">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M12 4L6 10l6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                Volver al inicio
+            </a>
+
+            <div class="legal-header">
+                <h1 class="legal-title">Política de Cookies</h1>
+                <p class="legal-date">Última actualización: 29 de enero de 2026</p>
+            </div>
+
+            <div class="legal-content">
+                <div class="info-box">
+                    <p><strong>En resumen:</strong> Este sitio web utiliza cookies propias y de terceros para mejorar tu experiencia de navegación, realizar análisis de uso y mostrar publicidad personalizada. Puedes aceptar todas las cookies, rechazar las no esenciales o configurar tus preferencias.</p>
+                </div>
+
+                <h2>1. ¿Qué son las cookies?</h2>
+                <p>
+                    Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo (ordenador, tablet o móvil) cuando visitas un sitio web. Las cookies permiten que el sitio web recuerde tus acciones y preferencias durante un período de tiempo, por lo que no tienes que volver a configurarlas cada vez que regreses al sitio o navegues de una página a otra.
+                </p>
+
+                <h2>2. ¿Qué tipos de cookies utilizamos?</h2>
+                <p>En este sitio web utilizamos los siguientes tipos de cookies:</p>
+
+                <h3>2.1. Cookies Técnicas o Necesarias</h3>
+                <p>
+                    Son imprescindibles para el correcto funcionamiento del sitio web. Permiten la navegación y el uso de las diferentes opciones y servicios que ofrece la web. Sin estas cookies, algunas funcionalidades del sitio no estarían disponibles.
+                </p>
+                <p><strong>Estas cookies no se pueden desactivar.</strong></p>
+
+                <h3>2.2. Cookies de Análisis o Medición</h3>
+                <p>
+                    Permiten el seguimiento y análisis del comportamiento de los usuarios en el sitio web. La información recogida se utiliza para medir la actividad del sitio y elaborar estadísticas de navegación con el fin de mejorar el sitio web.
+                </p>
+
+                <h3>2.3. Cookies de Personalización</h3>
+                <p>
+                    Permiten recordar información para que accedas al sitio web con determinadas características que pueden diferenciar tu experiencia de la de otros usuarios, como el idioma o la región desde donde accedes.
+                </p>
+
+                <h3>2.4. Cookies de Publicidad Comportamental</h3>
+                <p>
+                    Almacenan información del comportamiento de los usuarios obtenida a través de la observación continuada de sus hábitos de navegación, lo que permite desarrollar un perfil específico para mostrar publicidad en función del mismo.
+                </p>
+
+                <h2>3. Cookies específicas utilizadas en este sitio</h2>
+                <p>A continuación se detallan las cookies específicas que utiliza este sitio web:</p>
+
+                <table class="cookie-table">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Proveedor</th>
+                            <th>Propósito</th>
+                            <th>Tipo</th>
+                            <th>Duración</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>_ga</td>
+                            <td>Google Analytics</td>
+                            <td>Registra una identificación única para generar datos estadísticos sobre cómo utiliza el visitante el sitio web</td>
+                            <td>Análisis</td>
+                            <td>2 años</td>
+                        </tr>
+                        <tr>
+                            <td>_gid</td>
+                            <td>Google Analytics</td>
+                            <td>Registra una identificación única para generar datos estadísticos sobre cómo utiliza el visitante el sitio web</td>
+                            <td>Análisis</td>
+                            <td>1 día</td>
+                        </tr>
+                        <tr>
+                            <td>_gat</td>
+                            <td>Google Analytics</td>
+                            <td>Utilizado por Google Analytics para controlar la tasa de peticiones</td>
+                            <td>Análisis</td>
+                            <td>1 minuto</td>
+                        </tr>
+                        <tr>
+                            <td>cookieconsent_status</td>
+                            <td>Este sitio web</td>
+                            <td>Almacena el estado del consentimiento de cookies del usuario</td>
+                            <td>Necesaria</td>
+                            <td>1 año</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>4. Cookies de terceros</h2>
+                <p>
+                    Este sitio web puede utilizar servicios de terceros que, por cuenta propia, instalarán cookies para el correcto funcionamiento de dichos servicios. Algunos ejemplos son:
+                </p>
+                <ul>
+                    <li><strong>Google Analytics:</strong> Para analizar el uso del sitio web y mejorar la experiencia del usuario.</li>
+                    <li><strong>Google Fonts:</strong> Para mostrar las tipografías utilizadas en el sitio web.</li>
+                    <li><strong>Redes Sociales:</strong> Si compartes contenido en redes sociales, estas pueden instalar sus propias cookies.</li>
+                </ul>
+
+                <h2>5. ¿Cómo puedo gestionar las cookies?</h2>
+                <p>
+                    Puedes permitir, bloquear o eliminar las cookies instaladas en tu dispositivo mediante la configuración de las opciones de tu navegador web. A continuación te indicamos los enlaces a la configuración de cookies de los navegadores más utilizados:
+                </p>
+                <ul>
+                    <li><strong>Google Chrome:</strong> <a href="https://support.google.com/chrome/answer/95647?hl=es" target="_blank" rel="noopener">Configuración de cookies en Chrome</a></li>
+                    <li><strong>Mozilla Firefox:</strong> <a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias" target="_blank" rel="noopener">Configuración de cookies en Firefox</a></li>
+                    <li><strong>Safari:</strong> <a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Configuración de cookies en Safari</a></li>
+                    <li><strong>Microsoft Edge:</strong> <a href="https://support.microsoft.com/es-es/microsoft-edge/eliminar-las-cookies-en-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener">Configuración de cookies en Edge</a></li>
+                </ul>
+
+                <div class="info-box">
+                    <p><strong>Importante:</strong> Si bloqueas o eliminas todas las cookies, algunas funcionalidades del sitio web pueden no estar disponibles o no funcionar correctamente.</p>
+                </div>
+
+                <h2>6. Consentimiento</h2>
+                <p>
+                    Al navegar y continuar en nuestro sitio web, estarás consintiendo el uso de las cookies antes enunciadas, por los plazos señalados y en las condiciones contenidas en la presente Política de Cookies.
+                </p>
+                <p>
+                    En cualquier momento podrás retirar tu consentimiento a través de la configuración de tu navegador o mediante el panel de configuración de cookies disponible en este sitio web.
+                </p>
+
+                <h2>7. Desactivación de Google Analytics</h2>
+                <p>
+                    Si deseas rechazar las cookies analíticas de Google Analytics en todos los sitios web, puedes descargar el complemento de inhabilitación para navegadores de Google Analytics visitando el siguiente enlace:
+                </p>
+                <p>
+                    <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">https://tools.google.com/dlpage/gaoptout</a>
+                </p>
+
+                <h2>8. Actualización de la política de cookies</h2>
+                <p>
+                    Esta Política de Cookies puede ser modificada en función de exigencias legislativas, reglamentarias o con la finalidad de adaptar dicha política a las instrucciones dictadas por la Agencia Española de Protección de Datos o autoridades competentes en Perú.
+                </p>
+                <p>
+                    Por ello, se aconseja a los usuarios que la visiten periódicamente. Cuando se produzcan cambios significativos en esta Política de Cookies, se comunicará a los usuarios mediante un aviso informativo en el sitio web.
+                </p>
+
+                <h2>9. Más información</h2>
+                <p>
+                    Para cualquier consulta sobre el uso de cookies en este sitio web, puedes dirigirte a través de los siguientes medios:
+                </p>
+                <ul>
+                    <li><strong>WhatsApp:</strong> +51 997 743 227</li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/luis-flores-panaderias/" target="_blank" rel="noopener">luis-flores-panaderias</a></li>
+                    <li><strong>Web:</strong> <a href="https://www.luikifloes.com" target="_blank" rel="noopener">luikifloes.com</a></li>
+                </ul>
+
+                <h2>10. Legislación aplicable</h2>
+                <p>
+                    Esta Política de Cookies se rige por la legislación peruana aplicable en materia de protección de datos personales, así como por el Reglamento General de Protección de Datos (RGPD) de la Unión Europea cuando sea aplicable.
+                </p>
+
+                <div class="info-box">
+                    <p><strong>Responsable del tratamiento:</strong> Luis Flores<br>
+                    <strong>Domicilio:</strong> Piura, Perú<br>
+                    <strong>Contacto:</strong> +51 997 743 227</p>
+                </div>
+
+                <div style="margin-top: var(--spacing-lg); text-align: center;">
+                    <a href="index.html" class="btn btn-primary">
+                        Volver al inicio
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10h12m-5-5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Luis Flores</h3>
+                    <p>Analista de Datos Especializado en Pequeños Negocios</p>
+                    <p class="footer-tagline">Transformando datos en dinero real</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Legal</h4>
+                        <a href="politica-cookies.html">Política de Cookies</a>
+                        <a href="politica-privacidad.html">Política de Privacidad</a>
+                        <a href="aviso-legal.html">Aviso Legal</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contacto</h4>
+                        <a href="https://wa.me/519997743227" target="_blank" rel="noopener">WhatsApp</a>
+                        <a href="https://www.linkedin.com/in/luis-flores-panaderias/" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="https://www.luikiflores.com" target="_blank" rel="noopener">luikiflores.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Luis Flores. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

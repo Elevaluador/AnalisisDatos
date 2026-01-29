@@ -1,0 +1,32 @@
+
+ /* Estilos básicos para el banner y el panel de configuración */
+ #consent-banner, #consent-config {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+    max-width: 300px;
+    font-family: Arial, sans-serif;
+  }
+  #consent-banner button, #consent-config button {
+    margin: 5px 5px 0 0;
+    padding: 8px 12px;
+    border: none;
+    background:blue;
+    color: white;
+    cursor: pointer;
+  }
+  #consent-banner button:hover, #consent-config button:hover {
+    background: black;
+  }
+  #consent-config {
+    display: none;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+  }

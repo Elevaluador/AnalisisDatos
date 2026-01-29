@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Flores| Analista de Datos para Pequeños Negocios (Perú)</title>
+    <meta name="description" content=" Ayudo a pequeños negocios de Perú y habla hispana a analizar sus datos con Excel y Power BI para mejorar costos, inventarios e ingresos.¡Cotiza por WhatsApp!">
+    <meta name="author" content="Luis Flores">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.analistaluisflores.online/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Servicio de Análisis de Datos para Empresas en Perú | Luis Flores">
+    <meta property="og:description" content="Servicio de análisis de datos para empresas y negocios en Perú. Especialista en análisis de datos de negocio con Excel, Power BI y Looker Studio.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.analistaluisflores.online/">
+    <meta property="og:locale" content="es_PE">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Servicio de Análisis de Datos para Empresas en Perú">
+    <meta name="twitter:description" content="Servicio de análisis de datos para negocios. Excel, Power BI, Looker Studio.">
+    
+    <!-- CSS principal con carga async -->
+     <!-- Favicons optimizados -->
+    <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-analista-luis-flores.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/Luis Flores.png">
+
+    <link rel="preload" as="image" href="images/problemas-analisis-datos.jpg" fetchpriority="high">
+    <link rel="preload" href="styles.css?v=0.1" as="style">
+    <link rel="stylesheet" href="styles.css?v=0.1" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="styles.css?v=0.1"></noscript>
+    <link rel="preload" href="cookies.css?v=1.0" as="style">
+    <link rel="stylesheet" href="cookies.css?v=1.0" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="cookies.css?v1.0"></noscript>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="preload" 
+  href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" 
+  as="style"
+>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" 
+  rel="stylesheet" 
+  media="print" 
+  onload="this.media='all'"
+>
+
+<style>
+    /* CSS Variables */
+:root {
+    --color-dark: #0f0f1e;
+    --color-dark-light: #1a1a2e;
+    --color-blue: #2563eb;
+    --color-blue-light: #60a5fa;
+    --color-orange: #f97316;
+    --color-purple: #9333ea;
+    --color-white: #ffffff;
+    --color-gray-light: #f1f5f9;
+    --color-gray: #94a3b8;
+    --color-gray-dark: #475569;
+    --color-red: #ef4444;
+    --color-green: #22c55e;
+    
+    --gradient-primary: linear-gradient(135deg, var(--color-blue) 0%, var(--color-purple) 100%);
+    --gradient-accent: linear-gradient(135deg, var(--color-orange) 0%, var(--color-purple) 100%);
+    --gradient-dark: linear-gradient(135deg, var(--color-dark) 0%, var(--color-dark-light) 100%);
+    --gradient-danger: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 3rem;
+    --spacing-xl: 4rem;
+    
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+    
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.16);
+    
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-full: 9999px;
+    
+    --transition-fast: 0.2s ease;
+    --transition-base: 0.3s ease;
+}
+
+/* Base Styles - MOBILE FIRST */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--color-dark);
+    background: var(--color-white);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 var(--spacing-sm);
+}
+/* Navigation - MOBILE */
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(15, 15, 30, 0.1);
+}
+
+.nav-container {
+    padding: var(--spacing-sm);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-decoration: none;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.nav-menu {
+    position: fixed;
+    top: 65px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 65px);
+    background: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-md);
+    gap: var(--spacing-sm);
+    list-style: none;
+    box-shadow: var(--shadow-lg);
+    transition: left var(--transition-base);
+}
+
+.nav-menu.active {
+    left: 0;
+}
+
+.nav-link {
+    color: var(--color-dark);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.125rem;
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-sm);
+}
+
+.nav-link:hover {
+    background: var(--color-gray-light);
+    color: var(--color-blue);
+}
+
+.btn-nav {
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: var(--gradient-primary);
+    color: var(--color-white) !important;
+    border-radius: var(--radius-full);
+    text-align: center;
+}
+
+.nav-toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-toggle span {
+    width: 24px;
+    height: 2px;
+    background: var(--color-dark);
+}
+
+/* Hero - MOBILE */
+.hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 6rem var(--spacing-sm) var(--spacing-lg);
+    background: linear-gradient(135deg, #fff5f5 0%, #fef3f9 100%);
+}
+
+.hero-background {
+    position: absolute;
+    inset: 0;
+    opacity: 0.4;
+    background-image: 
+        radial-gradient(circle at 20% 50%, rgba(239, 68, 68, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(249, 115, 22, 0.1) 0%, transparent 50%);
+}
+
+.hero-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.hero-badge {
+    display: inline-block;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    background: var(--color-red);
+    color: var(--color-white);
+    border-radius: var(--radius-full);
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+    animation: pulse 2s ease infinite;
+}
+
+.hero-title {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: var(--spacing-sm);
+}
+
+.gradient-text {
+    background: var(--gradient-danger);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: block;
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+    color: var(--color-gray-dark);
+    margin-bottom: var(--spacing-md);
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-xs);
+    padding: 0.875rem 1.5rem;
+    border-radius: var(--radius-full);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all var(--transition-base);
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+
+.btn-primary {
+    background: var(--gradient-primary);
+    color: var(--color-white);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.btn-secondary {
+    background: var(--color-white);
+    color: var(--color-dark);
+    border: 2px solid var(--color-dark);
+}
+
+.btn-secondary:hover {
+    background: var(--color-dark);
+    color: var(--color-white);
+}
+
+.btn-large {
+    padding: 1.125rem 2rem;
+    font-size: 1rem;
+}
+
+.hero-trust {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.trust-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    color: var(--color-gray-dark);
+    font-size: 0.875rem;
+}
+
+.trust-icon {
+    color: var(--color-green);
+    font-weight: bold;
+}
+
+.hero-image {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+}
+
+.image-glow {
+    position: absolute;
+    inset: -15px;
+    background: var(--gradient-primary);
+    border-radius: var(--radius-lg);
+    filter: blur(30px);
+    opacity: 0.3;
+    z-index: -1;
+    animation: pulse 3s ease infinite;
+}
+/* TABLET - 768px+ */
+@media (min-width: 768px) {
+    :root {
+        --spacing-md: 2rem;
+        --spacing-lg: 4rem;
+        --spacing-xl: 5rem;
+    }
+    
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+    
+    .nav-logo {
+        font-size: 1.5rem;
+    }
+    
+    .nav-menu {
+        position: static;
+        width: auto;
+        height: auto;
+        background: transparent;
+        flex-direction: row;
+        padding: 0;
+        box-shadow: none;
+        gap: var(--spacing-md);
+        align-items: center;
+    }
+    
+    .nav-link {
+        font-size: 1rem;
+        padding: 0;
+    }
+    
+    .nav-link:hover {
+        background: transparent;
+    }
+    
+    .nav-toggle {
+        display: none;
+    }
+    
+    .hero {
+        padding: 8rem var(--spacing-md) var(--spacing-xl);
+    }
+    
+    .hero-container {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.125rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: row;
+    }
+    
+    .btn {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 2.5rem;
+    }
+    }
+    @media (min-width: 1024px) {
+    :root {
+        --spacing-xl: 6rem;
+    }
+    
+    .container {
+        max-width: 1200px;
+    }
+    
+    .hero-title {
+        font-size: 3.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.25rem;
+    }
+    
+    .hero-image {
+        max-width: 500px;
+    }
+    
+    .section-title {
+        font-size: 3rem;
+    }
+    }
+</style>
+<!-- Google Analytics -->
+    <script>
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        var gtmScript = document.createElement('script');
+        gtmScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-G997CG2JM5';
+        gtmScript.async = true;
+        document.head.appendChild(gtmScript);
+
+        gtmScript.onload = function () {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          window.gtag = gtag;
+
+          // Configuración de consentimiento DENEGADO por defecto
+          gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'analytics_storage': 'denied'
+          });
+
+          gtag('js', new Date());
+          gtag('config', 'G-G997CG2JM5');
+        };
+      }, 2000);
+    });
+  </script>
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Luis Flores</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#problemas" class="nav-link">¿Te pasa esto?</a></li>
+                <li><a href="#servicios" class="nav-link">Soluciones</a></li>
+                <li><a href="#portafolio" class="nav-link">Casos de Éxito</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#contacto" class="nav-link btn-nav">Conversemos</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-badge">⚠️ ¿Tienes este problema porque no estás analizando los datos de tu negocio?</h1>
+                <h2 class="hero-title">
+                    ¿Pierdes dinero 
+                    <span class="gradient-text">sin saber exactamente por qué?</span>
+                </h2>
+                <p class="hero-subtitle">
+                    El 70% de panaderías y pequeños negocios no saben cuánto ganan realmente en cada producto. 
+                    Yo te ayudo a convertir tus datos en decisiones claras que aumentan tu rentabilidad.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#problemas" class="btn btn-primary">
+                        Quiero saber más
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10h12m-5-5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/51997743227?text=Hola%20Luis,%20vi%20tu%20web%20y%20quiero%20conversar%20sobre%20mi%20negocio" class="btn btn-secondary">Solicitar Asesoría Gratis</a>
+                </div>
+                <div class="hero-trust">
+                    <div class="trust-item">
+                        <span class="trust-icon">✓</span>
+                        <span>+100 Plantillas vendidas a panaderias</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-icon">✓</span>
+                        <span>6 años de experiencia en una panaderia artesanal</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-icon">✓</span>
+                        <span>Excel, Power BI, Looker Studio</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-glow"></div>
+                <img src="images/problemas-analisis-datos.jpg" alt="falta de analisis de datos para negocios en peru" width="679" height="451">
+            </div>
+        </div>
+    </section>
+
+    <!-- Pain Points Section -->
+    <section id="problemas" class="pain-points">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag urgent">¿Esto te suena familiar?</span>
+                <h2 class="section-title">Estos son los errores que veo en pequeños negocios que no analizan sus números</h2>
+                <p class="section-description">
+                    Trabajé 6 años en una panadería y vi estos problemas destruir la rentabilidad de negocios prometedores.
+                </p>
+            </div>
+            <div class="pain-grid">
+                <div class="pain-card">
+                    <div class="pain-icon">❌</div>
+                    <h3>No sabes tu margen real por producto</h3>
+                    <p>
+                        Vendes mucho pero no sabes qué productos realmente te dan ganancias. 
+                        Algunos hasta te hacen perder dinero sin que lo notes.
+                    </p>
+                    <div class="pain-impact">
+                        <strong>Impacto:</strong> Puedes perder hasta el 30% de tus utilidades
+                    </div>
+                </div>
+
+                <div class="pain-card">
+                    <div class="pain-icon">📉</div>
+                    <h3>Control de inventario desastroso</h3>
+                    <p>
+                        Desperdicio de materias primas, mermas no controladas, no sabes cuánto comprar. 
+                        El inventario es un agujero negro de tu dinero.
+                    </p>
+                    <div class="pain-impact">
+                        <strong>Impacto:</strong> El 20% de tu inversión se pierde en desperdicio
+                    </div>
+                </div>
+
+                <div class="pain-card">
+                    <div class="pain-icon">🤯</div>
+                    <h3>Decisiones basadas en "intuición"</h3>
+                    <p>
+                        Subes o bajas precios sin saber el impacto real. Lanzas productos nuevos 
+                        sin analizar si van a ser rentables.
+                    </p>
+                    <div class="pain-impact">
+                        <strong>Impacto:</strong> Decisiones costosas que afectan tu flujo de caja
+                    </div>
+                </div>
+
+                <div class="pain-card">
+                    <div class="pain-icon">💸</div>
+                    <h3>Proveedores y compras sin control</h3>
+                    <p>
+                        No comparas proveedores con datos. No tienes historial de precios. 
+                        Compras de más o de menos sin un sistema claro.
+                    </p>
+                    <div class="pain-impact">
+                        <strong>Impacto:</strong> Pagas hasta 15% más de lo necesario
+                    </div>
+                </div>
+
+                <div class="pain-card">
+                    <div class="pain-icon">📊</div>
+                    <h3>Reportes que no entiendes</h3>
+                    <p>
+                        Tienes datos en Excel desordenados que nadie usa. No sabes interpretar 
+                        tus números para tomar mejores decisiones.
+                    </p>
+                    <div class="pain-impact">
+                        <strong>Impacto:</strong> Oportunidades de mejora que nunca ves
+                    </div>
+                </div>
+
+                <div class="pain-card">
+                    <div class="pain-icon">⏰</div>
+                    <h3>Pierdes horas en tareas manuales</h3>
+                    <p>
+                        Cálculos manuales, reportes que tardan días, información desactualizada. 
+                        Tu tiempo se va en procesos que deberían ser automáticos.
+                    </p>
+                    <div class="pain-impact">
+                        <strong>Impacto:</strong> 10+ horas semanales que podrías invertir mejor
+                    </div>
+                </div>
+            </div>
+
+            <div class="pain-cta">
+                <h3>¿Identificas alguno de estos problemas en tu negocio?</h3>
+                <p>Déjame ayudarte a resolverlos con análisis de datos claro y accionable para cualquier empresa</p>
+                <a href="https://wa.me/51997743227?text=Hola%20Luis,%20vi%20tu%20web%20y%20quiero%20conversar%20sobre%20mi%20negocio" class="btn btn-primary btn-large">
+                    Sí, necesito ayuda
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10h12m-5-5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header center">
+                <p class="section-tag">Soluciones para pequeños negocios y empresas</p>
+                <h2 class="section-title">Cómo Te Ayudo a Resolver Estos Problemas</h2>
+                <p class="section-description">
+                    pantillas de excel y visualizaciones que transforman tus datos en dinero real para tu negocio local.
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card excel">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="currentColor" opacity="0.1"/>
+                            <path d="M14 12h20a2 2 0 012 2v20a2 2 0 01-2 2H14a2 2 0 01-2-2V14a2 2 0 012-2z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 20h24M20 12v24" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Excel Avanzado</h3>
+                    <p>
+                        Plantillas personalizadas que automatizan tus procesos y te muestran 
+                        exactamente dónde estás ganando o perdiendo dinero.
+                    </p>
+                    <div class="service-benefits">
+                        <div class="benefit">✓ Control total de inventarios y costos</div>
+                        <div class="benefit">✓ Cálculo automático de márgenes reales</div>
+                        <div class="benefit">✓ Kardex mensual, para planificar mejorar tus compras</div>
+                        <div class="benefit">✓ Registro de ventas, con la opcion de fitrar por mes y año</div>
+                    </div>
+                    <div class="service-result">
+                        <strong>Resultado:</strong> Ahorras 10+ horas semanales y aumentas tu rentabilidad
+                    </div>
+                </div>
+
+                <div class="service-card powerbi">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="currentColor" opacity="0.1"/>
+                            <rect x="12" y="28" width="6" height="8" rx="1" fill="currentColor"/>
+                            <rect x="21" y="20" width="6" height="16" rx="1" fill="currentColor"/>
+                            <rect x="30" y="12" width="6" height="24" rx="1" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Power BI</h3>
+                    <p>
+                        Dashboards visuales que te permiten ver la salud de tu negocio de un vistazo 
+                        y tomar decisiones basadas en datos reales, no intuiciones.
+                    </p>
+                    <div class="service-benefits">
+                        <div class="benefit">✓ Visualiza tendencias y patrones ocultos</div>
+                        <div class="benefit">✓ Compara proveedores y optimiza compras</div>
+                        <div class="benefit">✓ Identifica productos rentables vs no rentables</div>
+                        <div class="benefit">✓ Dashboards interactivos y fáciles de usar</div>
+                    </div>
+                    <div class="service-result">
+                        <strong>Resultado:</strong> Decisiones más rápidas y acertadas que impactan el flujo de caja
+                    </div>
+                </div>
+
+                <div class="service-card looker">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="currentColor" opacity="0.1"/>
+                            <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="24" cy="24" r="3" fill="currentColor"/>
+                            <path d="M24 14v-2m0 24v-2m10-10h2m-24 0h-2" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Looker Studio</h3>
+                    <p>
+                        Reportes automáticos en la nube que puedes ver desde tu celular en cualquier momento. 
+                        Tu negocio siempre bajo control, estés donde estés.
+                    </p>
+                    <div class="service-benefits">
+                        <div class="benefit">✓ Monitoreo en tiempo real desde tu celular</div>
+                        <div class="benefit">✓ Reportes que se actualizan automáticamente</div>
+                        <div class="benefit">✓ Comparte información con tu equipo fácilmente</div>
+                        <div class="benefit">✓ Sin necesidad de software instalado</div>
+                    </div>
+                    <div class="service-result">
+                        <strong>Resultado:</strong> Control total de tu negocio desde cualquier lugar
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portafolio" class="portfolio">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">Casos de Éxito</span>
+                <h2 class="section-title">Resultados Reales de Negocios Como el Tuyo</h2>
+                <p class="section-description">
+                    Proyectos que han ayudado a emprendedores de peru y habla hispana a tomar control de sus números.
+                </p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card featured">
+                    <div class="portfolio-tag">🔥 Producto Estrella</div>
+                    <div class="portfolio-content">
+                        <h3>Plantilla de Inventario para Panaderías</h3>
+                        <p>
+                            Sistema completo de inventario, recetas y compras. 
+                            Más de 100 panaderías lo usan para dejar de perder dinero en desperdicio 
+                            y compras mal calculadas.
+                        </p>
+                        <div class="portfolio-testimonial">
+                            <p class="testimonial-text">
+                                "Antes tenia que hacer compras de ultimo momento. Ahora sé exactamente 
+                                cuándo debo comprar, que insumos comprar y los costos de cada produccion. Reduje mis costos un 15%."
+                            </p>
+                            <p class="testimonial-author">- IBeth-Administradora de pastelerias mi perla en chiclayo</p>
+                        </div>
+                        <div class="portfolio-metrics">
+                            <div class="metric">
+                                <span class="metric-value">100+</span>
+                                <span class="metric-label">Clientes Satisfechos</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">25%</span>
+                                <span class="metric-label">Aumento Promedio en Rentabilidad</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">10h</span>
+                                <span class="metric-label">Ahorradas por Semana</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-link">
+                        <a href="https://www.luikiflores.com/plantillas-inventario/inventario-insumos/" target="_blank" rel="noopener" class="link-external">
+                            Ver plantilla en luikiflores.com
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M6 4L10 8l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-icon powerbi-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect x="4" y="16" width="6" height="12" rx="1" fill="currentColor"/>
+                            <rect x="13" y="10" width="6" height="18" rx="1" fill="currentColor"/>
+                            <rect x="22" y="4" width="6" height="24" rx="1" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Dashboard de compras  y produccion- Panadería</h3>
+                    <p>
+                     Dashboard interactivo en Power BI con 10 KPI estratégicos para controlar compras y producción. Incluye 
+                     Filtros por proveedor, tipo de producción y período(trimestre,mes o dia),
+                      analiza los insumos que más impactan en costos y detecta a los proveedores clave del año. 
+                      Incluye gráficos de producción por producto para identificar los más rentables y demandados.
+                    </p>
+                    <div class="portfolio-result">
+                        <strong>Resultado:</strong> Cliente identificó cuales son sus proveedores clave, cuales son los 3 productos mas demandados y 
+                        que insumos, debe mantener un control estricto, para mejorar sus margenes.
+                    </div>
+                      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7413700521947222017/"  target="_blank" class="btn btn-primary btn-large">ver dashboard</a>
+                </div> 
+
+                <div class="portfolio-card">
+                    <div class="portfolio-icon looker-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <circle cx="16" cy="16" r="10" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="16" cy="16" r="3" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Reporte de Ventas - Restaurante</h3>
+                    <p>
+                       Dashboard interactivo que revela el mejor y peor mes en ventas, 
+                       el top 5 de productos más y menos vendidos por categoría o período, 
+                       y un KPI que muestra qué porcentaje representa del total de ventas, segun categoria,
+                    producto o el mes seleccionado.
+                    </p>
+                    <div class="portfolio-result">
+                        <strong>Resultado:</strong>Se descubrió que la categoría Cocina genera el 80 % 
+                        de los ingresos, permitiendo definir una estrategia clara para
+                         priorizar y optimizar esos productos para este año..
+                    </div>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7416625396231815168/"  target="_blank" class="btn btn-primary btn-large">ver dashboard</a>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-icon excel-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect x="4" y="4" width="24" height="24" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M4 12h24M12 4v24" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Evaluación de Proyecto de Inversión - Crema</h3>
+                    <p>
+                        Análisis financiero completo: ¿vale la pena lanzar este producto nuevo? Proyecciones, 
+                        punto de equilibrio, VAN, TIR y escenarios optimista/pesimista.
+                    </p>
+                    <div class="portfolio-result">
+                        <strong>Resultado:</strong> Cliente evitó invertir S/20,000 en un producto que 
+                        los números mostraban que no sería rentable en su mercado.
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/18ppGyd7ydgq9J92VEjTD0AD-eXf8wOXy?usp=sharing"  target="_blank" class="btn btn-primary btn-large">ver Proyectos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">Sobre Mí</span>
+                <h2 class="section-title">Por Qué Entiendo Tu Negocio</h2>
+                <p class="section-description">
+                    No soy solo un analista de datos. Viví en carne propia los problemas de los pequeños negocios.
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/Graduacion-analista-datos-luis-flores.jpg"  width="1080" height="719" alt="Analista de datos Luis Flores">
+                    <div class="about-badge">
+                        <span class="badge-icon">🏆</span>
+                        <span class="badge-text">Primer Lugar en Administración</span>
+                    </div>
+                </div>
+                <div class="about-story">
+                    <div class="story-card">
+                        <div class="story-number">01</div>
+                        <h3>Experiencia Real en el Negocio</h3>
+                        <p>
+                            <strong>6 años trabajando en una panadería artesanal</strong> mientras estudiaba. 
+                            No aprendí en libros, viví los errores que cometen los negocios: no llevar registros de produccion y ventas, comprar de más, 
+                            desperdiciar materia prima, no saber qué productos realmente daban ganancia.
+                        </p>
+                        <p>
+                            Vi cómo la falta de control de datos destruía la rentabilidad de un negocio que 
+                            vendía bien pero no ganaba lo que debería.
+                        </p>
+                    </div>
+
+                    <div class="story-card">
+                        <div class="story-number">02</div>
+                        <h3>Formación de Excelencia</h3>
+                        <p>
+                            <strong>Primer lugar de mi promoción en Administración.</strong> Me especialicé 
+                            en finanzas y marketing porque quería entender no solo los números, sino cómo 
+                            impactan realmente en el crecimiento del negocio.
+                        </p>
+                        <p>
+                            Esta combinación única de experiencia práctica + conocimiento académico me permite 
+                            hablar tu idioma y darte soluciones que realmente funcionan.
+                        </p>
+                    </div>
+
+                    <div class="story-card">
+                        <div class="story-number">03</div>
+                        <h3>Soluciones Probadas</h3>
+                        <p>
+                            <strong>100+ panaderías usan mi plantilla de inventario.</strong> No es teoría, 
+                            es un sistema que mejoro constantemente con el feedback de negocios reales como el tuyo.
+                        </p>
+                        <p>
+                            También soy evaluador de proyectos de inversión a nivel universitario, lo que me 
+                            permite analizar si tus ideas de negocio realmente te van a dar retorno.
+                        </p>
+                    </div>
+
+                    <div class="story-highlight">
+                        <h4>Mi Promesa</h4>
+                        <p>
+                            No te voy a vender análisis complicados que no entiendas. Te voy a dar herramientas 
+                            prácticas y claras que puedas usar desde el día 1 para tomar mejores decisiones y 
+                            aumentar tu rentabilidad.
+                        </p>
+                    </div>
+
+                    <div class="about-skills-grid">
+                        <div class="skill-badge">Excel Avanzado</div>
+                        <div class="skill-badge">Power BI</div>
+                        <div class="skill-badge">Looker Studio</div>
+                        <div class="skill-badge">Análisis Financiero</div>
+                        <div class="skill-badge">Marketing con Datos</div>
+                        <div class="skill-badge">Evaluación de Proyectos</div>
+                        <div class="skill-badge">Gestión de Inventarios</div>
+                        <div class="skill-badge">Control de Costos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <span class="section-tag">Conversemos</span>
+                    <h2 class="section-title">¿Listo para Tomar Control de tus Números?</h2>
+                    <p class="contact-description">
+                        Agenda una consulta gratuita de 30 minutos y platiquemos sobre los problemas 
+                        específicos de tu negocio. Sin compromiso.
+                    </p>
+                    
+                    <div class="contact-benefits">
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <span>Conversación sin compromiso</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <span>Identificamos tus problemas principales</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <span>Te propongo soluciones concretas</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-methods">
+                        <a href="https://wa.me/51997743227?text=Hola%20Luis,%20vi%20tu%20web%20y%20quiero%20conversar%20sobre%20mi%20negocio" 
+                           target="_blank" 
+                           rel="noopener" 
+                           class="contact-method whatsapp">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="currentColor"/>
+                                    <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2.546 20.2A1 1 0 003.8 21.454l3.032-.892A9.958 9.958 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <div class="method-label">Escríbeme por WhatsApp</div>
+                                <div class="method-value">+51 997 743 227</div>
+                                <div class="method-subtext">Respuesta en menos de 24h</div>
+                            </div>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/luis-flores-panaderias/" 
+                           target="_blank" 
+                           rel="noopener" 
+                           class="contact-method linkedin">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14zm-2.5 8.5h-2V17h2v-5.5zM17 7.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0zM9 11.5H7V17h2v-5.5zm1-4a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <div class="method-label">Conéctate en LinkedIn</div>
+                                <div class="method-value">luis-flores-panaderias</div>
+                            </div>
+                        </a>
+
+                        <a href="https://www.luikiflores.com" 
+                           target="_blank" 
+                           rel="noopener" 
+                           class="contact-method website">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
+                                    <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <div class="method-label">Mi Tienda de Plantillas</div>
+                                <div class="method-value">luikiflores.com</div>
+                                <div class="method-subtext">Plantilla de inventario disponible</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-cta-box">
+                    <div class="cta-content">
+                        <h3>💰 Consulta Gratuita de 30 Minutos</h3>
+                        <p>
+                            En esta llamada vamos a revisar los problemas específicos de tu negocio 
+                            y te daré recomendaciones concretas, aunque no contrates nada.
+                        </p>
+                        <ul class="cta-list">
+                            <li>✓ Analizamos tu situación actual</li>
+                            <li>✓ Identificamos los pricipales problemas</li>
+                            <li>✓ Sin compromiso de compra</li>
+                        </ul>
+                        <a href="https://wa.me/51997743227?text=Hola%20Luis,%20quiero%20agendar%20la%20consulta%20gratuita%20de%2030%20minutos" 
+                           target="_blank" 
+                           rel="noopener"
+                           class="btn btn-primary btn-large">
+                            Agendar Mi Consulta Gratis
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10h12m-5-5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                        <p class="cta-guarantee">
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Luis Flores</h3>
+                    <p>Analista de Datos Especializado en Pequeños Negocios</p>
+                    <p class="footer-tagline">Transformando datos en dinero real</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Contacto</h4>
+                        <a href="https://wa.me/51997743227" target="_blank" rel="noopener">WhatsApp</a>
+                        <a href="https://www.linkedin.com/in/luis-flores-panaderias/" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="https://www.luikiflores.com" target="_blank" rel="noopener">luikiflores.com</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Servicios</h4>
+                        <a href="#servicios">Excel Avanzado</a>
+                        <a href="#servicios">Power BI</a>
+                        <a href="#servicios">Looker Studio</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Luis Flores. Todos los derechos reservados.</p>
+            </div>
+        </div>
+        <script defer src="script.js"></script>
+        <script defer src="cookies.js"></script>
+    </footer>
+     <!-- Cookie Consent Banner -->
+         <div id="consent-banner" style="display: none;">
+                <p>Usamos cookies para análisis estadístico y publicidad. ¿Cómo deseas continuar?</p>
+                <button onclick="aceptarTodo()">Aceptar</button>
+                <button onclick="rechazarTodo()">Rechazar</button>
+                <button onclick="document.getElementById('consent-config').style.display = 'block'">Configurar</button>
+         </div>
+
+           <!-- Panel de configuración personalizada -->
+            <div id="consent-config" style="display: none;">
+            <p><strong>Configuración de consentimiento</strong></p>
+            <label>
+            <input type="checkbox" id="consent-estadistica" checked>
+             Aprobar Cookies estadísticas
+            </label>
+            <label>
+            <input type="checkbox" id="consent-comportamental" checked>
+            Aprobar Cookies comportamentales
+           </label>
+           <button onclick="guardarConfiguracion()">Guardar configuración</button>
+           </div>
+     <!-- Structured Data - JSON-LD -->
+    <script defer type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Luis Flores - Servicio de Análisis de Datos",
+      "description": "Servicio de análisis de datos para empresas y negocios en Perú. Especialista en análisis de datos de negocio con Excel, Power BI y Looker Studio.",
+      "url": "https://www.analistaluisflores.online",
+      "telephone": "+51997743227",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Piura",
+        "addressRegion": "Piura",
+        "addressCountry": "PE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "addressCountry": "PE"
+      },
+      "priceRange": "$$",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Peru"
+      },
+      "serviceType": [
+        "Servicio de Análisis de Datos",
+        "Análisis de Datos para Empresas",
+        "Análisis de Datos para Negocios",
+        "Consultoría de Datos",
+        "Business Intelligence"
+      ],
+      "knowsAbout": [
+        "Excel Avanzado",
+        "Power BI",
+        "Looker Studio",
+        "Análisis Financiero",
+        "Análisis de Datos de Negocio"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/luis-flores-panaderias/",
+        "https://www.analistaluisflores.online"
+      ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Luis Flores",
+      "jobTitle": "Analista de Datos",
+      "description": "Especialista en análisis de datos para empresas y negocios en Perú",
+      "url": "https://www.analistaluisflores.online",
+      "sameAs": [
+        "https://www.linkedin.com/in/luis-flores-panaderias/",
+        "https://www.analistaluisflores.online"
+      ],
+      "knowsAbout": [
+        "Análisis de Datos",
+        "Excel Avanzado",
+        "Power BI",
+        "Looker Studio",
+        "Business Intelligence",
+        "Análisis Financiero"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PE"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Análisis de Datos",
+      "provider": {
+        "@type": "Person",
+        "name": "Luis Flores"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Peru"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "name": "Pequeñas y Medianas Empresas"
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "PEN"
+        }
+      }
+    }
+    </script>
+</body>
+</html>
